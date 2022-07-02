@@ -6,6 +6,7 @@ import { store } from './store';
 import { Provider } from 'react-redux';
 import { Ionicons } from '@expo/vector-icons';
 import { StatusBar } from 'expo-status-bar';
+import { COLORS } from './constants/theme';
 
 const Tab = createBottomTabNavigator();
 
@@ -51,7 +52,7 @@ function MyTabs() {
 
       <Tab.Screen name="Profile" component={Profile} />
     </Tab.Navigator>
-  );
+  )
 }
 
 export default function App() {
@@ -59,7 +60,7 @@ export default function App() {
     <NavigationContainer
       theme={{
         colors: {
-          background: '#17171A',
+          background: COLORS.backgroundColor,
         },
       }}>
       <Provider store={store}>
@@ -68,5 +69,5 @@ export default function App() {
         <MyTabs />
       </Provider>
     </NavigationContainer>
-  );
+  )
 }

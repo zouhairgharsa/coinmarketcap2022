@@ -22,7 +22,7 @@ const AssetsModal = ({ route, navigation }) => {
     'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=8&page=1&sparkline=false'
   );
 
-  const isSelected = (coin) => isEnabled.includes(coin);
+  const isSelected = (x) => isEnabled.includes(x);
   const newData = data.filter((item) => isSelected(item.id));
 
   const handleValue = (id) => {
@@ -53,7 +53,7 @@ const AssetsModal = ({ route, navigation }) => {
       }}>
       <FlatList
         data={data}
-        style={{ flexGrow: 0 }}
+        style={{flexGrow:0}}
         ListHeaderComponent={
           <View style={{ marginBottom: 20 }}>
             <Text style={{ color: 'white', fontSize: 19, fontWeight: '800' }}>

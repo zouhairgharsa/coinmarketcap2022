@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "coinmarketcap2022",
-    "slug": "snack-9e96497f-fdd0-4d95-9e25-6c6c1e6ed64e",
+    "slug": "CoinMarketCap",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "io.expo.client"
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -17,7 +17,6 @@ const percentageColor =a =>a < 0 ? "#ea3943" : "#16c784";
   };
 
 const formatCurrency = (value,current_price) => {
-    'worklet';
     if (value === '') {
       return `$${current_price.usd.toFixed(2)}`;
     }
@@ -26,5 +25,7 @@ const formatCurrency = (value,current_price) => {
 
   const formatDecimal=(x)=>x.toFixed(2)
 
+
+  
 
   export {percentageColor,normalizeMarketCap,formatCurrency,formatDecimal}

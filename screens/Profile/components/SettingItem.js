@@ -6,8 +6,12 @@ import {
   SectionList,
   Switch,
   TouchableOpacity,
-} from 'react-native';
+} from 'react-native'
 import { AntDesign } from '@expo/vector-icons';
+
+
+
+
 
 const SettingItem = ({ item }) => {
   const [isEnabled, setIsEnabled] = useState(item.type);
@@ -56,7 +60,7 @@ const SettingItem = ({ item }) => {
             name="right"
             size={15}
             color="white"
-            style={{ marginLeft: 8 }}
+            style={{ marginLeft: 8}}
           />
         )}
       </View>
@@ -64,4 +68,4 @@ const SettingItem = ({ item }) => {
   );
 };
 
-export default SettingItem;
+export default SettingItem

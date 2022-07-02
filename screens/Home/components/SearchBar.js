@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { View, TextInput, StyleSheet } from 'react-native';
+import { View, TextInput } from 'react-native';
 import { Entypo, AntDesign } from '@expo/vector-icons';
 
 const SearchBar = ({ search, setSearch }) => {
@@ -10,7 +10,6 @@ const SearchBar = ({ search, setSearch }) => {
         backgroundColor: '#171924',
         height: 50,
         borderRadius: 20,
-        marginHorizontal: 10,
       }}>
       <View
         style={{

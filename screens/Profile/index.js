@@ -16,6 +16,7 @@ import { Header, SettingItem } from './components';
 export default function Profile() {
   return (
     <View style={styles.container}>
+
       <Header />
       <SectionList
         sections={DATA}
@@ -46,5 +47,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: Constants.statusBarHeight + 30,
+  },
+  paragraph: {
+    margin: 24,
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
   },
 });

@@ -1,4 +1,3 @@
 import CoinItem from './CoinItem'
-
-
-export {CoinItem}
+import Screen from  './Screen'
+export {CoinItem,Screen}
