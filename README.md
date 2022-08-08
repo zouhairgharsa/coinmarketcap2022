@@ -1,4 +1,4 @@
-# coinmarketcap2022
+# coin market cap
 
 Technologies : React Native-Expo-Redux Toolkit
 
